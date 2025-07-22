@@ -1,0 +1,55 @@
+.edit-users-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px;
+    background-color: #f0f8ff; 
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .users-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .users-table th,
+  .users-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .users-table th {
+    background-color: #717171;
+    color: white;
+  }
+  
+  .users-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .users-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #ff3838;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff4500;
+  }

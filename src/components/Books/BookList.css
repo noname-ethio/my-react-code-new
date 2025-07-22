@@ -1,0 +1,136 @@
+.book-list-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 15px;
+  color: #1e90ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.main-content { 
+  padding: 20px;
+  padding-right: 400px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.filter-form {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 10px;
+  width: 100%; 
+  margin-bottom: 20px;
+}
+
+.filter-form input,
+.filter-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 150px; 
+}
+
+.filter-form button {
+  padding: 10px 15px;
+  background-color: #4682b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-form button:hover {
+  background-color: #5f9ea0;
+}
+
+.book-table {
+  width: 100%; 
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.book-table th, .book-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.book-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.borrow-button {
+  padding: 5px 10px;
+  background-color: #add8e6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.borrow-button:hover {
+  background-color: #87ceeb;
+}
+
+.logout-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #4682b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #5f9ea0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  background-color: #4682b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 16px;
+  font-weight: bold;
+}
